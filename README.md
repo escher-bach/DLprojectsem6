@@ -1,5 +1,8 @@
+# LeWorldModel (Reservoir Extended)
 
-# LeWorldModel
+> **Note**: This repository is a modification of the original [LeWorldModel](https://github.com/lucas-maes/le-wm) by Lucas Maes et al. 
+> We have extended the original architecture to experiment with **Reservoir Computing**. Specifically, we replace the learned ViT encoder and the SIGReg regularizer with a fixed Echo State Network (ESN) combined with Random Convolutions. This allows us to test if a fixed dynamical system can generate expressive enough embeddings for the predictor to learn environment dynamics.
+
 ### Stable End-to-End Joint-Embedding Predictive Architecture from Pixels
 
 [Lucas Maes*](https://x.com/lucasmaes_), [Quentin Le Lidec*](https://quentinll.github.io/), [Damien Scieur](https://scholar.google.com/citations?user=hNscQzgAAAAJ&hl=fr), [Yann LeCun](https://yann.lecun.com/) and [Randall Balestriero](https://randallbalestriero.github.io/)
